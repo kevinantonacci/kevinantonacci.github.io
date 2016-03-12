@@ -1,0 +1,105 @@
+$gutter_width: 1.1;
+$column_width: 8.333;
+
+
+.container{margin:0 auto}
+
+.row{
+	padding:$gutter_width * 1em;
+    margin-bottom: $gutter_width * 1em;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+    padding:0 $gutter_width * 1em 0 0;
+    float:left;
+}
+
+.collapse-left{margin-left:-$gutter_width * 1em !important;}
+
+.column:last-child{
+  padding-right:0;
+}
+
+/* span widths */
+.span-1{@include width(1)}
+.span-2{@include width(2)}
+.span-3{@include width(3)}
+.span-4{@include width(4)}
+.span-5{@include width(5)}
+.span-6{@include width(6)}
+.span-7{@include width(7)}
+.span-8{@include width(8)}
+.span-9{@include width(9)}
+.span-10{@include width(10)}
+.span-11{@include width(11)}
+.span-12{@include width(12);padding-right:0;}
+
+/* offset widths */
+.offset-2{@include offset(2)}
+.offset-3{@include offset(3)}
+.offset-4{@include offset(4)}
+.offset-5{@include offset(5)}
+.offset-6{@include offset(6)}
+.offset-7{@include offset(7)}
+.offset-8{@include offset(8)}
+.offset-9{@include offset(9)}
+.offset-10{@include offset(10)}
+.offset-11{@include offset(11)}
+.offset-12{@include offset(12);padding-right:0;}
+
+/* push (to fill out the row */
+.push-1{@include push(1)}
+.push-2{@include push(2)}
+.push-3{@include push(3)}
+.push-4{@include push(4)}
+.push-5{@include push(5)}
+.push-6{@include push(6)}
+.push-7{@include push(7)}
+.push-8{@include push(8)}
+.push-9{@include push(9)}
+.push-10{@include push(10)}
+.push-11{@include push(11)}
+.push-12{@include push(12)}
+
+/* classes to define the number of columns per breakpoint */
+/* media queries */
+@media only screen and (min-width : 20em) and (max-width:29.99em) {	
+	.xsmall-show-1 .column{width:100% !important;}
+	.xsmall-show-2 .column{width:50% !important;}
+	.xsmall-show-3 .column{width:33.33% !important;}
+	.xsmall-show-4 .column{width:25% !important;}
+}
+
+/* ===== == = === 30em (480px) small === = == ===== */
+
+@media only screen and (min-width : 30em) and (max-width : 47.99em) {
+	.small-show-1 .column{width:100% !important;}
+	.small-show-2 .column{width:50% !important;}
+	.small-show-3 .column{width:33.33% !important;}
+	.small-show-4 .column{width:25% !important;}
+}
+
+/* ===== == = === 48em (768px) medium === = == ===== */
+
+@media only screen and (min-width : 48em) and (max-width : 63.99em) {
+	.medium-show-1 .column{width:100% !important;}
+	.medium-show-2 .column{width:50% !important;}
+	.medium-show-3 .column{width:33.33% !important;}
+	.medium-show-4 .column{width:25% !important;}
+}
+
+@media only screen and (min-width : 64em) {
+	.large-show-1 .column{width:100% !important;}
+	.large-show-2 .column{width:50% !important;}
+	.large-show-3 .column{width:33.33% !important;}
+	.large-show-4 .column{width:25% !important;}
+}
+
+
+

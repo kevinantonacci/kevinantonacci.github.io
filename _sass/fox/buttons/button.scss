@@ -1,0 +1,47 @@
+.btn{
+  padding:0.25em 1em;
+  display:inline-block;
+  margin:0.25em;
+  border-radius:2px;
+  border:none;
+  background:#e8e8e8;
+  font-size:100%;
+  cursor:pointer;
+}
+
+.btn.large{
+  padding:0.5em 1.25em;
+  font-size:125%;
+}
+
+.btn.success{
+  background:#00A000;
+  color:#fff;
+}
+
+.btn.success:hover{
+  background:#008400;
+}
+
+.btn.warning{
+  background: #f38d11;
+  color:#fff;
+}
+
+.btn.warning:hover{
+  background: #d77211;
+}
+
+.btn.info{
+  background:#0F8B8D;
+  color:#fff;
+}
+
+.btn.info:hover{
+  background: #0e7c7e;
+}
+
+.btn.danger{
+  background:#A8201A;
+  color:#fff;
+}

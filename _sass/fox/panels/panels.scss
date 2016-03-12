@@ -1,0 +1,16 @@
+div.panel{
+  padding:0.6em;
+  background:#f8f8f8;
+  margin-bottom:1em;
+
+  div.panel-header{
+    border-bottom:solid 1px #efefef;
+    margin:-0.6em -0.6em 0.6em -0.6em;
+    background:#333;
+    color:#fff;
+    padding:0.6em;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    overflow:hidden;
+  }
+}

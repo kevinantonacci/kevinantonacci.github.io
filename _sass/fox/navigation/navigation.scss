@@ -1,0 +1,37 @@
+@import 'navigation-config';
+
+ul.main-nav{
+  height:$topbar_height;
+  li{line-height:$topbar_height}
+  li:hover{background-color:$main_nav_hover_bg;}
+  a{color:$main_nav_a_color;text-transform:uppercase;}
+}
+
+li.dropdown{
+
+  position:relative;
+
+	.dropdown-menu{
+		display:none;
+        min-width:150%;
+        position:absolute;
+        top:100%;
+        left:0;
+        background-color:$main_nav_dd_bg;
+        li{
+          display:block;
+          margin:0;
+        }
+	}
+}
+
+li.dropdown:hover{
+  height:100%;
+  .dropdown-menu{
+    display:block;
+  }
+}
+
+ul.menu-inline{
+  li{display:inline-block;list-style:none;padding:$inline_padding}
+}

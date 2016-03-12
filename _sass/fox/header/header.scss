@@ -1,0 +1,9 @@
+$topbar_height: 50px;
+$topbar_bg: #232323;
+
+#top-bar{background:$topbar_bg;}
+#top-bar .row{height:$topbar_height;}
+a.site-name{font-size:1.6em; line-height:$topbar_height;}
+
+
+
