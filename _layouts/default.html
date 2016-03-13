@@ -2,9 +2,8 @@
 <html>
 {% include head.html %}
 <body>
-
-<div class="container span-8">
-    <div class="wrapper">
+<div class="wrapper">
+    <div class="container span-10">
         <div class="header">
             <div class="row">
                 <div class="column offset-4 span-8 navbar">
@@ -22,7 +21,44 @@
                 </div>
             </div>
         </div>
+
+    </div>
+    <div class="container span-10">
+        <div class="main-section">
+
+            {% for post in site.posts %}
+            <!-- Begin Post -->
+            <div class="row">
+                <div class="post">
+                    <div class="column span-6">
+                        <img class="responsive" src="assets/pieces/steel_city_collectibles.png"/>
+                    </div>
+                    <div class="column span-6">
+                        <h3 class="yellow">{{post.title}}</h3>
+                        <p>{{post.content}}</p>
+
+                        <div class="post-nav clearfix">
+                            <a href="https://www.steelcitycollectibles.com" class="btn large visit">Visit Site</a>
+                            <a href="#" class="btn large more">Read More</a>
+                        </div>
+
+                        <div class="post-tags">
+                            <ul>
+                                <li>Drupal</li>
+                                <li>Sass</li>
+                                <li>Project Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Post -->
+
+
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
+
 </body>
 </html>

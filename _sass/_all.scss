@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700|Oleo+Script:400,700);
-
-body{background:url(/assets/bg.jpg) fixed;font-family:"Arimo" !important}
+body{background:url(/assets/bg.jpg) fixed;font-family:"Ubuntu" !important}
 
 .wrapper{margin-top:2em;}
 
@@ -32,18 +30,38 @@ div.post{
 
 	.post-tags{
 		ul{
-			li{display:inline-block;margin-right:1em;}
+			li{display:inline-block;margin-right:1em;color: #fff;font-size:0.85em;text-transform:uppercase}
 			li:last-child{margin-right:0;}
-			li a{color:$yellow;font-size:0.9em;text-transform:uppercase}
-            li a:hover{text-decoration: underline;}
-
-			margin-top:0.5em;
-			border:solid 1px #042d37;
-			background:#02151B;
-			padding:0.8em;
-			opacity:0.8;
 		}
 	}
+
+    h3{
+      font-family:"Oleo Script";
+      color:$yellow;
+      font-size:3.5em;
+      margin-bottom:0.1em;
+    }
+
+    p{color:#fff;line-height:1.5em;margin-bottom:1em;}
+
+  .post-nav{
+    margin-bottom:1em;
+  }
+
+  a.visit,a.more{
+    font-weight:normal;
+  }
+
+  a.visit{
+    background:$yellow;
+    color: #242306;
+  }
+
+  a.more{
+    background:$blue;
+    color: #fff;
+  }
+
 }
 
 div.navbar{
