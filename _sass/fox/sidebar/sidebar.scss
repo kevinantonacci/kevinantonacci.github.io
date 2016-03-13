@@ -1,19 +1,15 @@
 .sidebar{
-  background:#444;
   padding:1em;
   font-size:110%;
 
   .sidebar-header{
-    background:#232323;
     margin:-1.1em -1.1em 0 -1.1em;
     color:#fff;
     padding:1em;
   }
 
   ul{
-    li{margin:0 -1.1em;background:#353535;padding:1em;cursor:pointer;border-bottom:solid 1px #666;}
-    li.active{background: #2f8823;border-bottom:solid 1px #55bf31;}
-    a{color:#fff;}
+    li{margin:0 -1.1em;padding:1em;cursor:pointer;}
   }
 }
 .sidebar.sidebar-fixed{height:100vh;overflow-y:scroll;margin-top:-1em;}

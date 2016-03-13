@@ -1,2 +1,61 @@
-body{background:url(/assets/bg.jpg) fixed;}
-h1.welcome{color:#fff;font-size:4em;}
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700|Oleo+Script:400,700);
+
+body{background:url(/assets/bg.jpg) fixed;font-family:"Arimo" !important}
+
+.wrapper{margin-top:2em;}
+
+h1.welcome{
+	font-family:"Oleo Script";
+	color:$yellow;
+	font-size:6em;
+	margin-bottom:0.1em !important;
+}
+
+h2.sub-heading{
+	font-family: "Oleo Script";
+	color:#fff;
+	font-size:2.5em;
+	margin-bottom:0.5em !important;
+    font-weight:lighter;
+}
+
+div.post{
+	
+	width:100%;
+	min-height:20em;
+	display:block;
+
+	.content{
+		color:#fff;
+        margin-bottom:2em;
+	}
+
+	.post-tags{
+		ul{
+			li{display:inline-block;margin-right:1em;}
+			li:last-child{margin-right:0;}
+			li a{color:$yellow;font-size:0.9em;text-transform:uppercase}
+            li a:hover{text-decoration: underline;}
+
+			margin-top:0.5em;
+			border:solid 1px #042d37;
+			background:#02151B;
+			padding:0.8em;
+			opacity:0.8;
+		}
+	}
+}
+
+div.navbar{
+
+  margin-bottom:2.5em;
+
+  ul{
+    text-align:right;
+
+    li{display:inline-block;margin-right:1em;}
+    li:last-child{margin-right:0}
+    a{font-size:1.2em; color:#fff;text-transform:uppercase;}
+    a.active{border-bottom: solid 4px $yellow; padding-bottom:1.5em;}
+  }
+}
