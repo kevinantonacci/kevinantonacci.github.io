@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63dade12-214e-4836-8cc2-8c83e2ac244e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/fox/media/media.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-03-12-welcome-to-jekyll.markdown" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/piece.html" afterPath="$PROJECT_DIR$/_includes/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pieces/steel_city_collectibles.png" afterPath="$PROJECT_DIR$/assets/pieces/steel_city_collectibles.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown" afterPath="$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_all.scss" afterPath="$PROJECT_DIR$/_sass/_all.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_colors.scss" afterPath="$PROJECT_DIR$/_sass/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/fox/colors/colors.scss" afterPath="$PROJECT_DIR$/_sass/fox/colors/colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/fox/fox.scss" afterPath="$PROJECT_DIR$/_sass/fox/fox.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/fox/typography/typography.scss" afterPath="$PROJECT_DIR$/_sass/fox/typography/typography.scss" />
     </list>
     <ignored path="kevinantonacci.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,28 +40,28 @@
       <file leaf-file-name="_all.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_all.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9583335">
-              <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4436519">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state vertical-scroll-proportion="-9.208333">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-03-13-steel-city-collectibles.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-03-13-steel-city-collectibles.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888">
-              <caret line="7" column="399" selection-start-line="7" selection-start-column="399" selection-end-line="7" selection-end-column="399" />
+            <state vertical-scroll-proportion="0.19340974">
+              <caret line="7" column="296" selection-start-line="7" selection-start-column="296" selection-end-line="7" selection-end-column="296" />
               <folding />
             </state>
           </provider>
@@ -140,13 +131,13 @@
         <option value="$PROJECT_DIR$/_sass/fox/typography/typography.scss" />
         <option value="$PROJECT_DIR$/_sass/_colors.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_sass/_all.scss" />
         <option value="$PROJECT_DIR$/_layouts/piece.html" />
         <option value="$PROJECT_DIR$/_posts/2016_03_13-steel-city-collectibles.markdown" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/post.html" />
-        <option value="$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_sass/_all.scss" />
+        <option value="$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown" />
       </list>
     </option>
   </component>
@@ -422,18 +413,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9583335">
-          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.29411766">
           <caret line="1" column="117" selection-start-line="1" selection-start-column="117" selection-end-line="1" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.208333">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -456,16 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-03-13-steel-city-collectibles.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
-          <caret line="7" column="399" selection-start-line="7" selection-start-column="399" selection-end-line="7" selection-end-column="399" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4436519">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.19340974">
+          <caret line="7" column="296" selection-start-line="7" selection-start-column="296" selection-end-line="7" selection-end-column="296" />
           <folding />
         </state>
       </provider>

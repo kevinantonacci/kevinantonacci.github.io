@@ -22,6 +22,7 @@ div.post{
 	width:100%;
 	min-height:20em;
 	display:block;
+    clear:both;
 
 	.content{
 		color:#fff;
@@ -50,17 +51,22 @@ div.post{
 
   a.visit,a.more{
     font-weight:normal;
+    text-transform:uppercase;
   }
 
   a.visit{
     background:$yellow;
     color: #242306;
+    border:solid 1px rgb(255, 234, 87)
   }
 
   a.more{
     background:$blue;
     color: #fff;
+    border:solid 1px #0a90a2;
   }
+
+  padding-bottom:3em;
 
 }
 

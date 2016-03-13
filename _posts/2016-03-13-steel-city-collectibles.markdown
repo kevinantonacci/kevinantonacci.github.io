@@ -5,4 +5,4 @@ tags: Drupal,SASS,Laravel
 description:
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet nunc viverra urna condimentum, molestie hendrerit enim ullamcorper. Mauris feugiat dui nec leo aliquet, vel facilisis urna ultricies. Fusce elementum risus vel mi sagittis, vel tristique lacus imperdiet. Quisque id enim at lacus sollicitudin luctus vitae commodo dui. Praesent et erat id justo aliquet rhoncus sed sit amet justo
+Steel City Collectibles is one of the world's largest distributor of trading cards, sports memorabilia and more. I've been working with the company since 2012, and have created two enterprise level ecommerce sites using Drupal and Ubercart. The website has seen exponential growth year after year.
